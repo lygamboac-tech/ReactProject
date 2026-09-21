@@ -12,6 +12,7 @@ function App() {
       <section id="center">
         <div>
           <p className="label">PORTFOLIO</p>
+           <img src={myPhoto} alt="mi foto" />
           <h1>My portfolio</h1>
           <p>Aprendiendo React, un componente a la vez.</p>
           <div>
@@ -20,7 +21,7 @@ function App() {
             <span className="badge">CSS</span>
           </div>
         </div>
-        <img src={myPhoto} alt="mi foto" width="250"/>
+        
         <button
           type="button"
           className="counter"

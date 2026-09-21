@@ -184,7 +184,7 @@
 }
 
 body {
-  background-color: #f4f1ea;
+  background-color: #f1e1c1;
   font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: center;
@@ -213,6 +213,9 @@ p {
 }
 
 img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
   border: 1px solid #c9a87c;
 }
